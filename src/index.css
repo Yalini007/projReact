@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background-color: #e8f5e9;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  color: #2e7d32;
+  margin: 20px;
+}
+
+.student {
+  width: 250px;
+  background-color: white;
+  border: 2px solid #2e7d32;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 2px 2px 10px gray;
+}
+
+.student img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #2e7d32;
+}
+
+.student h2 {
+  color: #2e7d32;
+}
+
+.student button {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.student button:hover {
+  background-color: #1b5e20;
+}
